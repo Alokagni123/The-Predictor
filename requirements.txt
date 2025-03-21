@@ -1,8 +1,10 @@
 fastapi
 uvicorn
 pandas
-scikit-learn
 numpy
+joblib
+scikit-learn
 openpyxl
 pymongo
-email-validator
+python-dotenv
+statsmodels
