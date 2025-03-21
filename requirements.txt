@@ -8,3 +8,4 @@ openpyxl
 pymongo
 python-dotenv
 statsmodels
+python-multipart
