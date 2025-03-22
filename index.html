@@ -142,3 +142,30 @@ export default function ThePredictor() {
 
 // Add background image "sporty-bg.jpg" in /public folder
 // Add dashboard image "dashboard-preview.png" in /public folder
+import React from "react";
+import ThePredictor from "./ThePredictor";
+
+function App() {
+  return <ThePredictor />;
+}
+
+export default App;
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init -p
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        maroon: "#800000",
+        blue: "#1E90FF",
+        yellow: "#FFD700",
+      },
+    },
+  },
+  plugins: [],
+};
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+import './styles/tailwind.css';
