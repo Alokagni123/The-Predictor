@@ -122,7 +122,7 @@ async def upload_data(file: UploadFile = File(...)):
 
 # FastAPI backend with latest-results route and ML pipeline integration
 from fastapi import FastAPI
-rom ml_pipeline import preprocess_data, predict_risk, predict_recovery, forecast_injury, cluster_athletes
+from ml_pipeline import preprocess_data, predict_risk, predict_recovery, forecast_injury, cluster_athletes
 app = FastAPI()
 
 @app.get("/")
