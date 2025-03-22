@@ -169,3 +169,21 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 import './styles/tailwind.css';
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+import './styles/tailwind.css'; // Make sure the path matches
+<img src="/dashboard-preview.png" alt="Dashboard Preview" />
+return (
+  <div className="text-center bg-blue-500 text-white p-6">
+    <h1 className="text-3xl font-bold">Tailwind is Working!</h1>
+  </div>
+);
